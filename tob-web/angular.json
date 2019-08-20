@@ -29,6 +29,16 @@
                 "output": "/assets"
               },
               {
+                "glob": "**/*",
+                "input": "src/themes/_active/gcweb/resources",
+                "output": "/assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/themes/_active/theme",
+                "output": "/gcweb"
+              },
+              {
                 "glob": "favicon.ico",
                 "input": "src/themes/_active",
                 "output": "/"
@@ -39,9 +49,7 @@
                 "output": "/"
               }
             ],
-            "styles": [
-              "src/themes/_active/styles.scss"
-            ],
+            "styles": [],
             "scripts": []
           },
           "configurations": {
