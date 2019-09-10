@@ -1,5 +1,6 @@
 #!/bin/bash
 export MSYS_NO_PATHCONV=1
+
 export DOCKERHOST=${APPLICATION_URL-$(docker run --rm --net=host codenvy/che-ip)}
 set -e
 
