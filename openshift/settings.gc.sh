@@ -6,7 +6,7 @@ export PROJECT_OS_DIR="../../openshift"
 # with the values of GIT_URI and GIT_REF
 export skip_git_overrides="schema-spy-build.json solr-base-build.json backup-build.json"
 export GIT_URI="https://github.com/ised-isde-canada/TheOrgBook"
-export GIT_REF="develop"
+export GIT_REF="master"
 
 export TOOLS="gc-orgbook-dev"
 export DEPLOYMENT_ENV_NAME="dev"
